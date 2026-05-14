@@ -1,4 +1,20 @@
+# CobblePCEnhanced
 
+Cobblemon PC enhancement mod with improved PC organization, type-based box management, and quality-of-life features.
+
+## Overview
+
+CobblePCEnhanced is a utility mod designed to improve the Cobblemon PC experience with better box organization, type-based PC management, and additional quality-of-life features focused on making Pokémon storage cleaner and easier to use.
+
+## Features
+
+- Improved Cobblemon PC organization
+- Type-based box management
+- Enhanced box mapping behavior
+- Improved sorting workflow
+- Better PC quality-of-life features
+- Support for Minecraft `1.21.1`
+- Development targeting `Fabric`
 
 ## Public Repository Purpose
 
