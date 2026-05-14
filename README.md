@@ -1,4 +1,4 @@
-# CobbleSpawnAlert Reforged
+# CobblePCEnhanced
 
 Choose your language / Choisissez votre langue
 
