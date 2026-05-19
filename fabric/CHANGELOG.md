@@ -1,5 +1,53 @@
 # Changelog
 
+## 1.1.0
+
+### Summary
+
+This update adds a complete wallpaper system for Cobblemon PC boxes, with custom type-based textures, persistent saving, and clean integration into the PC interface.
+
+### Added
+
+- Added custom wallpapers for Cobblemon PC boxes
+- Added textures for all main Pokémon types:
+  - Fire
+  - Water
+  - Grass
+  - Electric
+  - Ground
+  - Poison
+  - Steel
+  - Ghost
+  - Fairy
+  - Dark
+  - Psychic
+  - Ice
+  - Dragon
+  - Bug
+  - Rock
+  - Normal
+  - Fighting
+  - Flying
+- Added wallpaper previews in the selection UI
+- Added per-box wallpaper saving
+
+### Improved
+
+- Improved wallpaper integration in the Cobblemon PC interface
+- Improved rendering of the frame around the PC box grid
+- Improved wallpaper sizing to avoid UI overflow
+- Improved slot border readability to keep the grid clear
+- Improved wallpaper persistence when switching boxes
+- Improved wallpaper persistence after closing and reopening the PC
+- Improved wallpaper persistence after disconnecting and reconnecting
+- Improved compatibility with the PC sorting buttons
+- Improved compatibility with CobblePCEnhanced global sorting
+
+### Notes
+
+- This update focuses only on PC wallpapers
+- The next planned update is focused on Trinkets integration for the remote item, with a quick-open keybind
+
 ## 1.0.0
 
 ### Summary
