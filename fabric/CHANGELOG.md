@@ -1,5 +1,30 @@
 # Changelog
 
+## 1.2.0
+
+### Summary
+
+This update improves Remote PC usability by adding Trinkets integration and a configurable keybind to open the PC without having to hold the item in hand.
+
+### Added
+
+- Added a dedicated Trinkets slot for the Remote PC
+- Added a discreet icon for the remote slot
+- Added a configurable keybind to open the PC while the Remote PC is equipped
+- Added a clean feedback message when the player tries to use the keybind without having the Remote PC equipped
+
+### Improved
+
+- Improved Remote PC usability by allowing it to be used directly from its dedicated Trinkets slot
+- Improved keybind safety by leaving the PC open key unbound by default to avoid conflicts with existing controls
+- Improved consistency by keeping right-click behavior unchanged when using the Remote PC normally
+- Improved visual polish by removing the visual cooldown after using the Remote PC
+
+### Notes
+
+- The wallpapers added in 1.1.0 were not modified
+- The dedicated Trinkets slot is separate from other mod slots such as Academy
+
 ## 1.1.0
 
 ### Summary
