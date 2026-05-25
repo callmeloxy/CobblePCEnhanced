@@ -1,5 +1,50 @@
 # Changelog
 
+## 1.3.0
+
+### Summary
+
+This update improves the PC interface with new wallpapers for free boxes, a box navigator, and a built-in box renaming system directly integrated into the UI.
+
+### Fixed
+
+- Fixed raw translation text that could appear in the wallpaper picker
+- Fixed raw translation text in the renaming UI
+- Fixed the Rename button in the box navigator showing a raw translation key
+- Fixed box name reset behavior so it now restores the logical mapped name instead of reverting to the vanilla `Box X` name
+- Fixed several compilation issues related to the wallpaper picker and box navigator during integration
+
+### Added
+
+- Added new wallpapers for free boxes
+- Added a box navigation button in the PC interface
+- Added a small box search UI
+- Added box search by number, name, type, or custom name
+- Added previous / next buttons to navigate through search results
+- Added a button to jump directly to the selected box
+- Added box renaming from the box navigator
+- Added a dedicated button to rename the currently opened box directly
+- Added a reset button for box names
+- Added a nametag-style icon for the rename button
+- Added a help tooltip for the box navigator
+
+### Improved
+
+- Improved custom box name saving
+- Improved custom box name persistence after closing and reopening the PC
+- Improved custom box name persistence after disconnecting and reconnecting
+- Improved box name reset behavior so it now restores the logical mapped name such as `Steel 2` or `Free 4` instead of reverting to the vanilla `Box X` name
+- Improved the box navigator so it works without affecting the existing Pokémon search
+- Improved compatibility with the existing sort buttons
+- Improved the visual polish of the renaming UI
+- Improved FR / EN translations for the box navigator and renaming UI
+
+### Notes
+
+- This update keeps the existing sorting logic intact
+- Renamed boxes remain compatible with wallpapers
+- Wallpapers, box navigation, and renaming were validated after closing and reopening the PC and after disconnecting and reconnecting
+
 ## 1.2.0
 
 ### Summary
