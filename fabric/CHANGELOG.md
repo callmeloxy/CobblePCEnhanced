@@ -1,5 +1,30 @@
 # Changelog
 
+## 1.4.0
+
+### Summary
+
+This update adds support for custom PC box wallpapers through resource packs.
+
+### Added
+
+- Added support for custom wallpapers loaded from resource packs
+- Added automatic detection of `.png` files placed in `assets/cobblepcenhanced/textures/gui/pc/wallpapers/custom/`
+- Added custom resource pack wallpapers to the wallpaper picker
+- Added save support for custom wallpapers selected per box
+
+### Improved
+
+- Improved wallpaper customization so custom wallpapers can now be added without modifying or rebuilding the mod
+- Improved separation between custom wallpapers and the public mod jar
+- Improved compatibility of custom wallpapers with renamed boxes and free boxes
+- Improved wallpaper customization workflow for private packs, server packs, and personal use
+
+### Notes
+
+- Recommended wallpaper size: `208x189`
+- Badly cropped or overly detailed images may not display cleanly behind the PC grid
+
 ## 1.3.0
 
 ### Summary
