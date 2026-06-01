@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.4.1
+
+### Summary
+
+This hotfix completes missing translations related to the Remote PC keybind, the box navigator help tooltip, and the Remote PC requirement message.
+
+### Fixed
+
+- Fixed the Remote PC keybind displaying a raw translation key
+- Fixed the missing keybind category translation
+- Fixed the missing box navigator help tooltip translation
+- Fixed the missing Remote PC requirement message translation
+
+### Improved
+
+- Improved French and English translation coverage
+- Improved polish in the controls menu and in-game messages
+
 ## 1.4.0
 
 ### Summary
