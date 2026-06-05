@@ -1,20 +1,31 @@
 # Changelog
 
-## 1.4.1
+## 1.5.0
 
 ### Summary
 
-This hotfix completes missing translations related to the Remote PC keybind, the box navigator help tooltip, and the Remote PC requirement message.
+This update improves PC box stability and completes missing translation coverage.
 
 ### Fixed
 
+- Fixed the PC sometimes reopening on Box 2 instead of the expected box
+- Fixed unstable box return behavior after closing the box rename screen
+- Fixed unstable box return behavior after closing the wallpaper picker
+- Fixed unstable box return behavior after closing the Box Navigator
+- Fixed Box Navigator returning to the wrong box after closing
+- Fixed box return behavior when using `Go to box` from the Box Navigator
 - Fixed the Remote PC keybind displaying a raw translation key
-- Fixed the missing keybind category translation
-- Fixed the missing box navigator help tooltip translation
-- Fixed the missing Remote PC requirement message translation
+- Fixed missing keybind category translation
+- Fixed missing Box Navigator help tooltip translation
+- Fixed missing Remote PC requirement message translation
 
 ### Improved
 
+- Improved first PC open behavior so it now opens on Box 1 after joining
+- Improved PC reopen behavior so it now returns to the last used box during the same session
+- Improved box return behavior after rename, wallpaper selection, or box navigation so it now preserves the intended box
+- Improved PC behavior without requiring MCT to be installed
+- Improved return flow by reducing the visible delay before restoring the correct box
 - Improved French and English translation coverage
 - Improved polish in the controls menu and in-game messages
 
