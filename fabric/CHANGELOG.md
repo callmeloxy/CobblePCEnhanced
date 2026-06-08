@@ -1,5 +1,43 @@
 # Changelog
 
+## 1.6.0
+
+### Summary
+
+This update adds dedicated Alpha and Shiny boxes, while stabilizing the number of free boxes across all upgrade tiers.
+
+### Fixed
+
+- Fixed several wallpaper translations in French and English
+- Fixed the missing direct `/cpe reload` command
+
+### Added
+
+- Added dedicated boxes for Alpha Pokémon
+- Added dedicated boxes for Shiny Pokémon
+- Added prioritized automatic sorting for Alpha and Shiny Pokémon
+- Added 16 fixed free boxes for all upgrade tiers
+- Added `/cpe reload`
+
+### Improved
+
+- Improved automatic sorting so Alpha Pokémon are now sent to Alpha boxes
+- Improved automatic sorting so Shiny Pokémon are now sent to Shiny boxes
+- Improved priority handling so Alpha Shiny Pokémon are sorted into Alpha boxes first
+- Improved automatic mapping so Alpha, Shiny, and free boxes are now shown more clearly
+- Improved `/cpe sort preview` and `/cpe sort now` so they now include Alpha and Shiny boxes
+- Improved the config reload message so it now includes the `[CPE]` prefix for clearer mod identification
+- Improved free box stability so the number of free boxes now stays consistent across all upgrade tiers
+
+### Notes
+
+- The Nether Star tier now contains 276 boxes in total:
+  - 252 type boxes
+  - 4 Alpha boxes
+  - 4 Shiny boxes
+  - 16 free boxes
+- Alpha and Shiny boxes are intentionally not split by type in order to keep the PC readable and stable
+
 ## 1.5.0
 
 ### Summary
