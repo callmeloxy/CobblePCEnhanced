@@ -1,5 +1,43 @@
 # Changelog
 
+## 1.7.0
+
+### Summary
+
+This update makes PC upgrades and the Remote PC much more configurable on the server side.
+
+### Added
+
+- Added server configuration support to choose which tier is required before the Remote PC can be used
+- Added separate options to enable or disable:
+  - Remote PC item use in hand
+  - Remote PC opening through the keybind
+  - Remote PC opening through Trinkets
+- Added support for changing the required item for each upgrade
+- Added support for changing the required amount for each upgrade
+- Added support for changing the displayed names of upgrade tiers
+
+### Improved
+
+- Improved Remote PC progression so it can now be reserved for a specific tier such as Nether Star
+- Improved server flexibility by allowing Remote PC unlock difficulty to be adjusted without modifying the mod code
+- Improved upgrade cost customization for different server economies
+- Improved tier display customization by allowing displayed names to be changed without affecting internal tier identifiers
+
+### Notes
+
+- Internal tier IDs should not be modified in the config
+- Recommended config values to customize are:
+  - `displayName`
+  - `cost.item`
+  - `cost.count`
+  - `remotePc.requiredTier`
+  - `remotePc.enabled`
+  - `remotePc.allowItemUse`
+  - `remotePc.allowKeybind`
+  - `remotePc.allowTrinket`
+- By default, the Remote PC is configured to unlock at the Nether Star tier
+
 ## 1.6.0
 
 ### Summary
