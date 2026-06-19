@@ -1,5 +1,32 @@
 # Changelog
 
+## 1.7.1
+
+### Summary
+
+Small bug-fix update focused on the Remote PC item and remote PC access for non-OP players.
+
+### Fixed
+
+- Fixed remote PC opening with the Remote PC item for non-OP players
+- Fixed behavior where remote opening could depend on the `/pc` command, causing an unknown or incomplete command error for players without permission
+- Fixed the denial flow when the player does not have a valid Remote PC equipped or in hand
+- Fixed the denial flow when the required PC tier is not reached
+
+### Improved
+
+- Improved remote PC opening so it now goes through CobblePCEnhanced internal checks before opening the PC
+- Improved Remote PC usability so players no longer need to be OP if all required conditions are met
+- Improved denial messages so they are now clean and explicit:
+  - no valid Remote PC equipped or held
+  - insufficient PC tier
+  - access allowed when the required tier is reached
+
+### Notes
+
+- This version does not grant access to `/pc` for non-OP players
+- Access remains controlled by the Remote PC item and the required PC tier
+
 ## 1.7.0
 
 ### Summary
