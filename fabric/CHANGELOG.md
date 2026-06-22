@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.7.2
+
+### Summary
+
+This hotfix fixes Remote PC transfers for non-OP players when using the CobblePCEnhanced Remote PC.
+
+### Fixed
+
+- Fixed an issue where non-OP players could open the PC with the Remote PC but could not move Pokémon between their party and PC
+- Fixed remote PC access keeping a permission-gated Cobblemon PC link after opening
+- Fixed remote access behavior so it now preserves Cobblemon’s normal PC opening flow while still allowing valid non-OP players to manage their own PC correctly
+
+### Notes
+
+- This update does not change normal PC behavior
+- This update only affects Remote PC access
+
 ## 1.7.1
 
 ### Summary
