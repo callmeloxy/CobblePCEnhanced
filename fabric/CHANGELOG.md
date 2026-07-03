@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.7.4
+
+### Summary
+
+This hotfix fixes excessive background dimming on the wallpaper selection screen with Cobblemon 1.7.3 and improves rendering consistency between supported Cobblemon versions.
+
+### Fixed
+
+* Fixed excessive background dimming on the wallpaper selection screen with Cobblemon 1.7.3
+
+### Improved
+
+* Improved wallpaper selection screen rendering consistency between Cobblemon 1.6.1 and Cobblemon 1.7.3
+* Wallpaper selection, box-wide wallpaper application, and wallpaper saving remain unchanged and have been tested on both supported Cobblemon versions
+
 ## 1.7.3
 
 ### Summary
